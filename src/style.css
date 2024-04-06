@@ -1,0 +1,166 @@
+:root{
+    --color-principal-morado: #2d0140;
+    --color-secundario-gris: #eeede7;
+    --color-secundario-salmon: #ddb9b9;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* header */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8px;
+}
+
+.container--title h1{
+    font-family: 'Playfair',sans-serif;
+    font-size: 28px;
+    width: 250px;
+    color: var(--color-secundario-salmon);
+}
+
+.container--nav {
+    display: flex;
+    position: relative;
+}
+
+.container--nav img{
+    width: 30px;
+    height: 15px;
+    background-color: var(--color-principal-morado);
+}
+nav{
+    display: none;
+    position: absolute;
+    top: 25px;
+    left: -160px;
+    background-color: var(--color-secundario-gris);
+    text-align: left;
+    padding: 12px ;
+    border-radius: 12px;
+}
+
+nav ul{
+    list-style: none;
+
+}
+
+nav ul li{
+    margin-bottom: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--color-principal-morado);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+
+
+/* SECTION QUIEN SOY */
+
+.container--title-community{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+
+.container--title-community h2{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Playfair',sans-serif;
+    font-weight: lighter;
+    color: var(--color-principal-morado);
+}
+
+.container-quien--soy{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.container--img-quien-soy {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+
+}
+
+.container--img-quien-soy img{
+    width: 90%;
+    height: 100%;
+    border-radius: 12px;
+}
+
+.container--descripcion-quien-soy{
+    display: flex;
+    flex-direction: column;
+}
+
+.container--descripcion-quien-soy h2{
+    font-size: 32px;
+    text-align: center;
+    font-family: 'Playfair',sans-serif;
+    font-weight: lighter;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: var(--color-principal-morado);
+}
+
+.container--descripcion-quien-soy p{
+    width: 90%;
+    text-align: justify;
+    margin: 0 auto;
+    color: var(--color-secundario-salmon);
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+
+}
+
+/* HABILIDADES Y PLATAFORMAS */
+
+.container-habilidades--plataformnas{
+    display: flex;
+    flex-direction: column;
+    background-color:var(--color-principal-morado);
+    padding: 15px;
+}
+
+.container--formacion, .container--habilidades {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+}
+
+.container--formacion  h3 , .container--habilidades h3{
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Playfair',sans-serif;
+    border-bottom: 1px solid white;
+    width: 150px;
+    font-weight: 500;
+}
+
+.container--formacion ul li , .container--habilidades ul li{
+    list-style: none;
+    margin-top: 15px;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-align: left;
+}
+
