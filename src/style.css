@@ -13,6 +13,7 @@
 
 
 
+
 /* header */
 header{
     display: flex;
@@ -164,3 +165,463 @@ nav ul li a {
     text-align: left;
 }
 
+
+    /*EXPERIENCIA LABORAL*/
+
+.container--experiencia--laboral{
+    padding-top:20px ;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-secundario-gris);
+
+}
+
+.container--experiencia--laboral h3{
+    font-size: 24px;
+    font-family: 'Playfair',sans-serif;
+    color: var(--color-principal-morado);
+    padding: 10px;
+}
+.container--experiencia--laboral div{
+    border:solid 1px var(--color-principal-morado);
+    padding: 10px;
+    height: 120px;
+    color: var(--color-principal-morado);
+    text-align: justify;
+    margin-bottom: 8apx;
+}
+
+.container--experiencia--laboral div h4{
+    font-family: 'Playfair',sans-serif;
+    margin-bottom: 8px;
+}
+
+.container--experiencia--laboral div h4 p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+
+}
+
+ /*HABILIDADES TECNICAS Y PLATAFORMAS */
+
+
+ .container-habilidades--plataformas{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-principal-morado);
+    align-items: center;
+ }
+
+.container--habilidades--tecnicas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.habilidades--img{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.container--habilidades--tecnicas h3 ,
+ .container--plataformas h3 {
+    font-size: 30px;
+    margin: 20px 0;
+    color: white;
+}
+
+.container--plataformas {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plataformas--img{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.habilidades--img img , 
+.plataformas--img img{
+    width: 40px;
+    height: 40px;
+}
+
+
+/* PROYECTOS REALIAZADOS */
+
+.container--trabajos--realizados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.container--trabajos--realizados h3 {
+    margin-top: 20px;
+    font-size: 28px;
+    font-family: 'Playfair',sans-serif;
+    color: var(--color-secundario-salmon);
+}
+
+.container--fundays--tours {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.container--title--fundays{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+    height: 150px;
+    border: 1px  solid var(--color-principal-morado);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.container--img-fundays {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin: 0 auto;
+    gap: 20px;
+    width: 100%;
+    padding-top: 20px;
+}
+
+
+.container--img-fundays img{
+    box-shadow: 5px 10px 15px var(--color-principal-morado);
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container--funciones--fundays{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+    gap: 5px;
+    margin: 0 auto;
+}
+
+.container--funciones--fundays h4{
+    font-family: 'Playfair',sans-serif;
+    color: var(--color-secundario-salmon);
+    font-size: 20px;
+}
+
+.container--funciones--fundays p{
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: var(--color-principal-morado);
+
+}
+
+
+.container--mentoras--emprendedoras{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container--title--mentoras {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+    height: 150px;
+    border: 1px solid var(--color-principal-morado);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: var(--color-principal-morado);
+}
+
+.container--title--mentoras p{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+.container--img--mentoras {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 20px;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.container--img--mentoras img {
+    box-shadow: 15px 5px 15px var(--color-secundario-salmon);
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.container--funciones--mentoras{
+        display: flex;
+        flex-direction: column;
+        padding-left: 5px;
+        gap: 5px;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+    
+.container--funciones--mentoras h4{
+        font-family: 'Playfair',sans-serif;
+        color: var(--color-principal-morado);
+        font-size: 20px;
+    }
+    
+.container--funciones--mentoras p{
+        font-size: 16px;
+        font-family: 'Raleway', sans-serif;
+        color: var(--color-secundario-salmon);
+        font-weight: 500;
+}
+
+.container--little--brain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container--title--little--brain{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+    height: 180px;
+    border: 1px solid var(--color-secundario-gris);
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 5px
+}
+
+.container--title--little--brain img{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+
+
+.container--title--little--brain  p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: var(--color-principal-morado);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.container--img--little--brain{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 20px;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.container--img--little--brain img{
+    box-shadow: 7px 0px 4px 5px var(--color-secundario-gris);
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+.container--funciones--little--brain{
+        display: flex;
+        flex-direction: column;
+        padding-left: 5px;
+        gap: 5px;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+    
+.container--funciones--little--brain h4{
+        font-family: 'Playfair',sans-serif;
+        color: var(--color-secundario-salmon);
+        font-size: 20px;
+    }
+    
+.container--funciones--little--brain p{
+        font-size: 16px;
+        font-family: 'Raleway', sans-serif;
+        color: var(--color-principal-morado);
+        font-weight: 500;
+}
+
+
+
+  /*PLANES DE REDES SOCAILES*/
+
+.container--plan--redes-sociales{
+    display:flex;
+    flex-direction: column;
+}
+
+.plan--redes--title{
+    margin-bottom: 20px;
+}
+
+.plan--redes--title h2{
+    font-size: 28px;
+    color: var(--color-principal-morado);
+    text-align: center;
+    margin: 40px auto;
+    font-family: 'Playfair',sans-serif;
+
+}
+
+.plan--redes--title p{
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    background-color: #2d0140;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.plans-container--slider{
+    display: flex;
+    width: 100%;
+    height: 320px;
+    overflow-x: scroll;
+   overscroll-behavior-x: contain;
+   scroll-snap-type: x proximity;
+   gap: 10px;
+   margin-top: 20px;
+   padding: 0 10px;
+}
+
+.plans-container--card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    min-width: 200px;
+    max-width: 400px;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    scroll-snap-align: center;
+    margin-right: 8px;
+    margin-top: 3px;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(89,79,30,0.16);
+    background-size: 70px , 70px , 60px;
+    background-image: url(./assets/instagram.png) , url(./assets/tiktok.svg)  , url(./assets/facebook.svg);
+    background-position: left top , right bottom , center ;
+    background-repeat: no-repeat;
+}
+
+.plans-container--card h3{
+    font-size: 20px;
+    margin: 0  0 20px 0;
+    font-family: 'Playfair',sans-serif;
+    font-weight: 400;
+    color: var(--color-principal-morado);
+    background-color: white;
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 15px 5px 15px var(--color-secundario-salmon);
+
+}
+
+.plans-container--card p{
+    font-family: 'Raleway', sans-serif;
+    font-size:40px;
+    font-weight: bolder;
+}
+
+.plans-container--card p span {
+    font-weight: lighter;
+}
+
+.plans-container--card button {
+    width: 100px;
+    height: 30px;
+    margin-top: 30px;
+}
+.detalles--plan--estandar,
+.detalles--plan--full,
+.detalles--plan--premium{
+    position: absolute;
+    background-color: var(--color-principal-morado);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 12px;
+    padding: 10px;
+    height: 310px;
+
+}
+
+.detalles--plan--estandar p ,
+.detalles--plan--full p,
+.detalles--plan--premium p{
+    color: white;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: 400;
+}
+
+/*RESULTADO DE GESTION DE REDES*/
+
+.container--resultados--redes{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-principal-morado);
+    margin: 20px auto;
+}
+
+.title--resultados--redes{
+    font-size: 28px;
+    text-align: center;
+    color: white;
+    padding: 8px;
+    font-family: 'Playfair',sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+    border-bottom: 1px solid white;
+}
+
+.container--img--resultados--redes{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 30px auto;
+    gap: 20px;
+}
+
+.container--img--resultados--redes img{
+   width: 100%;
+   border-radius: 12px;
+   box-shadow: 7px 3px 20px 2px var(--color-secundario-salmon);
+}
