@@ -319,6 +319,7 @@ nav ul li a {
     font-family: 'Playfair',sans-serif;
     color: var(--color-secundario-salmon);
     font-size: 20px;
+    margin-top: 30px;
 }
 
 .container--funciones--fundays p{
