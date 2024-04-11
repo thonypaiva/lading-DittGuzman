@@ -20,6 +20,7 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 0 8px;
+    margin-top: 15px;
 }
 
 .container--title h1{
@@ -32,11 +33,13 @@ header{
 .container--nav {
     display: flex;
     position: relative;
+    align-items: center;
+    justify-content: center;
 }
 
 .container--nav img{
     width: 30px;
-    height: 15px;
+    height: 100%;
     background-color: var(--color-principal-morado);
 }
 nav{
@@ -123,9 +126,9 @@ nav ul li a {
 .container--descripcion-quien-soy p{
     width: 90%;
     text-align: justify;
-    margin: 0 auto;
+    margin: 20px auto;
     color: var(--color-secundario-salmon);
-    font-weight: 700;
+    font-weight: 500;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
 
@@ -531,7 +534,7 @@ nav ul li a {
     padding: 30px;
     box-shadow: 0 4px 8px rgba(89,79,30,0.16);
     background-size: 70px , 70px , 60px;
-    background-image: url(./assets/instagram.png) , url(./assets/tiktok.svg)  , url(./assets/facebook.svg);
+    background-image: url(./src/assets/instagram.png) , url(./src/assets/tiktok.svg)  , url(./src/assets/facebook.svg);
     background-position: left top , right bottom , center ;
     background-repeat: no-repeat;
 }
@@ -625,4 +628,239 @@ nav ul li a {
    width: 100%;
    border-radius: 12px;
    box-shadow: 7px 3px 20px 2px var(--color-secundario-salmon);
+}
+
+
+/* PLANES DE TRÁFICO PAGO */
+
+.container--trafico--pago{
+    display: flex;
+    flex-direction: column;
+}
+
+.container--title-trafico{
+    margin-bottom: 20px;
+}
+
+.container--title-trafico h3 {
+    font-size: 28px;
+    color: var(--color-principal-morado);
+    text-align: center;
+    margin: 40px auto;
+    font-family: 'Playfair', sans-serif;
+}
+
+.container--title-trafico p {
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    background-color: #2d0140;
+    font-family: 'Raleway', sans-serif;  
+}
+
+.plans--container--slider--trafico{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    gap: 10px;
+    margin-top: 20px;
+    padding: 0 10px;
+}
+
+.plans-container--card--trafico{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    min-width: 200px;
+    max-width: 400px;
+    height: 350px;
+    flex-direction: column;
+    scroll-snap-align: center;
+    margin: 0 auto;
+    border-radius: 12px;
+    padding: 30px;
+    background-size:100% ;
+    background-image: url(./src/assets/herramientas-gratuitas-medir-trafico-redes-sociales.jpg);
+    background-position: center ;
+    background-repeat: no-repeat;
+    box-shadow: 7px 3px 20px 2px var(--color-secundario-salmon)
+    
+}
+
+.plans-container--card--trafico:nth-child(2) {
+    order: -1;
+}
+
+.plans-container--card--trafico h3{
+    font-size: 20px;
+    margin: 0 0 130px 0;
+    font-family: 'Playfair', sans-serif;
+    font-weight: 400;
+    color: var(--color-principal-morado);
+    background-color: white;
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 15px 5px 15px 5px var(--color-secundario-gris);
+} 
+
+.plans-container--card--trafico p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: bolder; 
+    color: var(--color-principal-morado);
+    margin-top: 20px;
+}
+
+.plans-container--card--trafico p span{
+    font-weight: lighter;
+}
+
+.detalles--plan--avanzado--trafico,
+.detalles--plan--estandar--trafico{
+    position: absolute;
+    background-color: var(--color-secundario-salmon);
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border-radius: 12px;
+    padding: 10px;
+    height: 350px;
+}
+
+.detalles--plan--premiun--trafico{
+    position: absolute;
+    background-color: var(--color-secundario-salmon);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    text-align: center;
+    border-radius: 12px;
+    padding: 2px;
+    height: 350px;
+    font-size: 8px;
+}
+
+.detalles--plan--avanzado--trafico p,
+.detalles--plan--estandar--trafico p,
+.detalles--plan--premiun--trafico p{
+    color: var(--color-principal-morado);
+    margin: 0 0 5px 0;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: 400;
+}
+
+.detalles--plan--avanzado--trafico button ,
+.detalles--plan--estandar--trafico button,
+.detalles--plan--premiun--trafico button {
+    width: 100px;
+    height: 30px;
+    margin-top: 10px 
+}
+
+.container--resultado--trafico{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.container--resultado--trafico h4{
+    font-size: 24px;
+    text-align: center;
+    color: var(--color-secundario-salmon);
+}
+
+.container--img--resultado--trafico {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+}
+
+.container--img--resultado--trafico img{
+    min-width: 280px;
+    max-width: 400px;
+    height: 100px;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+
+.container--contacto {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.container--contacto h3{
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--color-principal-morado);
+}
+
+.container--contacto img{
+    width: 280px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+
+
+.container--info--contacto {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    background-color: var(--color-principal-morado);
+    padding: 8px;
+    
+}
+
+.container--info--contacto h4 {
+    font-size: 28px;
+    text-align: center;
+    color: white;
+}
+
+.container--info--contacto p {
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 3px;
+    color:var(--color-secundario-salmon);
+    font-weight: 400;
+
+}
+
+.container--info--contacto p strong {
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.container--info--contacto img {
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.container--contacto--redes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
 }
