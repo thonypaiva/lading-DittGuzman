@@ -1,0 +1,75 @@
+header {
+    padding: 0 50px;
+    
+}
+.container--img-quien-soy img {
+    width: 400px;
+}
+
+nav {
+    text-align: center;
+}
+
+.container--descripcion-quien-soy{
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.container-habilidades--plataformnas {
+    flex-direction: row;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.container--experiencia--laboral {
+    color: white;
+}
+
+.container--img-fundays,
+.container--img--mentoras,
+.container--img--little--brain
+ {
+    flex-wrap: wrap;
+    padding: 25px;
+    flex-direction: row;
+}
+
+.container--img-fundays img,
+.container--img--mentoras img,
+.container--img--little--brain img
+ {
+    max-width: 400px;
+}
+
+.plan--redes--title p{
+    height: 80px;
+    font-size: 18px;
+    padding-top: 20px;
+    font-weight: 500;
+}
+
+.container--img--resultados--redes{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+.container--img--resultados--redes img {
+    width: 290px;
+}
+
+.container--info--contacto{
+    align-items: center;
+    justify-content: space-around;
+}
+.container--info--contacto p {
+    margin: 0 auto;
+}
+
+.container--info--contacto img{
+    margin-right: 30px;
+}
