@@ -54,6 +54,7 @@ nav {
 .container--img--resultados--redes{
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;   
 }
 
 
