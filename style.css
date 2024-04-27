@@ -303,6 +303,14 @@ nav ul li a {
     margin: 0 auto;
 }
 
+.container--title--fundays p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: var(--color-secundario-salmon);
+    font-weight: 500;
+
+}
+
 .container--img-fundays {
     display: flex;
     flex-direction: column;

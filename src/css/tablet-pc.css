@@ -4,6 +4,7 @@ header {
 }
 .container--img-quien-soy img {
     width: 400px;
+    border-radius: 50%;
 }
 
 nav {
@@ -11,11 +12,28 @@ nav {
     height: 70vh;
 }
 
+.container-quien--soy{
+    flex-direction: row;
+    padding: 20px;
+    align-items: center;
+}
+
+.container--descripcion-quien-soy p{
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
 .container--descripcion-quien-soy{
-    width: 90%;
+    width: 50%;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+}
+
+.container--formacion ul li,
+ .container--habilidades ul li {
+font-size: 20px;
 }
 
 .container-habilidades--plataformnas {
@@ -29,6 +47,29 @@ nav {
     color: white;
 }
 
+.container--experiencia--laboral h3{
+    font-size: 32px;
+    text-align: center;
+
+}
+
+.container--experiencia--laboral div h4 {
+    font-size: 28px;
+}
+
+.container--experiencia--laboral div p{
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.container--funciones--fundays,
+.container--funciones--mentoras,
+.container--funciones--little--brain{
+    margin: 0 90px;
+}
+
+
 .container--img-fundays,
 .container--img--mentoras,
 .container--img--little--brain
@@ -36,8 +77,30 @@ nav {
     flex-wrap: wrap;
     padding: 25px;
     flex-direction: row;
+    margin-top: 30px
 }
 
+.container--funciones--fundays h4,
+.container--funciones--mentoras h4,
+.container--funciones--little--brain h4{
+    font-size: 28px;
+}
+.container--funciones--fundays p,
+.container--title--mentoras p,
+.container--funciones--mentoras p,
+.container--title--little--brain p,
+.container--funciones--little--brain p
+{
+    font-size: 20px;
+}
+
+.container--title--mentoras{
+    height: 200px;
+}
+
+.container--title--little--brain {
+    height: 240px;
+}
 .container--img-fundays img,
 .container--img--mentoras img,
 .container--img--little--brain img
@@ -45,7 +108,17 @@ nav {
     max-width: 400px;
 }
 
-.plan--redes--title p , .container--title-trafico p{
+.plans--container--slider--trafico,
+.plans-container--slider {
+    overflow-x: hidden;
+}
+
+.plan--redes--title h2{
+    font-size: 32px;
+}
+
+.plan--redes--title p ,
+ .container--title-trafico p{
     height: 80px;
     font-size: 28px;
     padding-top: 20px;
