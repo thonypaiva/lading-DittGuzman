@@ -1,6 +1,6 @@
 header {
     padding: 0 50px;
-    
+
 }
 .container--img-quien-soy img {
     width: 400px;
@@ -16,6 +16,8 @@ nav {
     flex-direction: row;
     padding: 20px;
     align-items: center;
+    animation: linear 5s infinite;
+
 }
 
 .container--descripcion-quien-soy p{
@@ -147,4 +149,28 @@ font-size: 20px;
 
 .container--info--contacto img{
     margin-right: 30px;
+}
+
+@keyframes linear {
+    0%{
+        background-color: white;
+    }
+
+    25%{
+        background: rgb(45,1,64);
+    background: linear-gradient(128deg, rgba(45,1,64,1) 21%, rgba(255,255,255,1) 63%);
+    }
+
+    50%{
+        background-color: white;
+    }
+
+    75%{
+        background: rgb(45,1,64);
+    background: linear-gradient(128deg, rgba(45,1,64,1) 21%, rgba(255,255,255,1) 63%);
+    }
+
+    100%{
+        background-color: white;
+    }
 }
